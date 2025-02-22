@@ -151,9 +151,9 @@ progress::-webkit-progress-value {
     transition: .2s !important;
     border-radius: var(--rounded-cards) !important;
 }
-.layout-desktop #myPreferencesMenuPage .listItem:hover {
+/* .layout-desktop #myPreferencesMenuPage .listItem:hover {
     transform: scale(1.015);
-}
+} */
 
 
 
