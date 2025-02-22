@@ -144,9 +144,9 @@ progress::-webkit-progress-value {
     padding-left: 0% !important;
 }
 /* Dynamic buttons */
-.layout-desktop .navMenuOption:hover:not(.navMenuOption-selected) {
+/* .layout-desktop .navMenuOption:hover:not(.navMenuOption-selected) {
     transform: scale(1.05) !important;
-}
+} */
 .layout-desktop .listItem {
     transition: .2s !important;
     border-radius: var(--rounded-cards) !important;
@@ -444,7 +444,7 @@ html,
     border-radius: 2px !important;
 }
 .mdl-slider-hoverthumb:hover::-moz-range-thumb {
-    transform: scaleY(2);
+    /* transform: scaleY(2); */
     background: #fff !important;
 }
 /* Webkit */
@@ -455,7 +455,7 @@ html,
     border-radius: 2px !important;
 }
 .mdl-slider-hoverthumb:hover::-webkit-slider-thumb {
-    transform: scaleY(2);
+    /* transform: scaleY(2); */
     background: #fff !important;
 }
 
@@ -470,12 +470,12 @@ html,
 }
 
 /* Up next card */
-.upNextDialog-buttons .upNextDialog-button {
+/* .upNextDialog-buttons .upNextDialog-button {
     transition: .2s !important;
 }
 .upNextDialog-buttons .upNextDialog-button:hover {
     transform: scale(1.1);
-}
+} */
 
 /* Support for Jellyscrub plugin */
 .chapterThumbContainer {
@@ -505,8 +505,8 @@ html,
     backdrop-filter: blur(var(--blur)) !important;
 }
 #skipIntro .btnSkipIntro:hover {
-    transition: .2s;
-    transform: scale(1.05);
+    /* transition: .2s;
+    transform: scale(1.05); */
     background: var(--primary-accent-color) !important;
 }
 #skipIntro .paper-icon-button-light:hover:not(:disabled) {
@@ -710,7 +710,7 @@ html,
     color: #D1D1D1
 }
 .MuiList-subheader .MuiListItemButton-root.MuiListItemButton-gutters:hover:not(.Mui-selected) {
-    transform: scale(1.05) !important;
+    /* transform: scale(1.05) !important; */
     background: rgba(44, 44, 44, 0.7) !important;
 }
 .MuiListItemButton-root.Mui-selected {
